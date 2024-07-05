@@ -1,0 +1,24 @@
+.top-order {
+    display: flex;
+    justify-content: center; /* Ortala */
+    align-items: center;
+    font-size: 7px;
+    padding: 10px 0;
+    white-space: nowrap; /* Satır sonlarında kırılmayı önlemek için */
+    position: absolute; /* Konumlandırmayı absolute yaparak serbestçe hareket ettirebilirsiniz */
+    right: 100px; /* Sola doğru kaydırmak için */
+    top: 63px; /* Yukarı doğru kaydırmak için */
+  }
+  
+  .top-order span {
+    margin: 0 5px; /* Aralarındaki boşluğu azaltmak için */
+  }
+  
+  .highlight-red {
+    color: red;
+  }
+  
+  .highlight-orange {
+    color: orange;
+  }
+  

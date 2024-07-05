@@ -1,0 +1,37 @@
+.search-bar {
+    display: flex;
+    align-items: center;
+    border: 3px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    position: absolute; /* Konumlandırmayı absolute yaparak serbestçe hareket ettirebilirsiniz */
+    left: 300px; /* Sola doğru kaydırmak için */
+    top: 90px; /* Yukarı doğru kaydırmak için */
+  }
+  
+  .search-input {
+    flex: 1;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .search-input:focus {
+    outline: none;
+  }
+  
+  .search-button {
+    background-color: #ccc;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .search-button:hover {
+    background-color: #bbb;
+  }
+  

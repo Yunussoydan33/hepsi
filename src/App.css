@@ -1,38 +1,46 @@
+.fixed-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  z-index: 1000; /* Üstte kalması için yüksek bir z-index değeri kullanın */
+}
+
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo-image {
+  width: 230px; /* İstediğiniz genişliği belirleyin */
+  height: 80px; /* Sabit yükseklik */
+  position: absolute; /* Konumlandırmayı absolute yaparak serbestçe hareket ettirebilirsiniz */
+  left: 30px; /* Sola doğru kaydırmak için */
+  top: 65px; /* Yukarı doğru kaydırmak için */
+}
+.playstation-image {
+  width: 500px; /* Resmin genişliğini ayarlayabilirsiniz */
+  height: auto; /* Oranları korumak için yükseklik otomatik */
+  position: absolute; /* Konumlandırmayı absolute yaparak serbestçe hareket ettirebilirsiniz */
+  left: 200px; /* Soldan uzaklık */
+  padding: 10px; /* Çerçeve ile resim arasındaki boşluk */
+  box-sizing: border-box; /* Padding ve border'ı dahil etmek için box-sizing kullanıyoruz */
+  top: 250px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Gölgelendirme */
+  border-radius: 8px; /* Köşeleri yuvarlatmak için */
+}
+.f5f5f5-area {
+  background-color: #F5F5F5;
+  width: 500px; /* Resmin genişliğini ayarlayabilirsiniz */
+  height: 500px; /* Oranları korumak için yükseklik otomatik */
+  position: absolute; /* Konumlandırmayı absolute yaparak serbestçe hareket ettirebilirsiniz */
+  right: 125px; /* Soldan uzaklık */
+  padding: 10px; /* Çerçeve ile resim arasındaki boşluk */
+  box-sizing: border-box; /* Padding ve border'ı dahil etmek için box-sizing kullanıyoruz */
+  top: 250px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Gölgelendirme */
+  border-radius: 8px; /* Köşeleri yuvarlatmak için */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* Diğer stiller buraya eklenebilir */

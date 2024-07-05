@@ -1,0 +1,128 @@
+.price-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px 0;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.product-title {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.product-brand a {
+  color: #0073e6;
+  text-decoration: none;
+  font-size: 14px;
+  position: relative; /* İlgili öğeyi konumlandırmak için */
+  top: -14px;
+}
+
+.product-price .price {
+  font-size: 26px;
+  font-weight: bold;
+  color: #000;
+  position: relative; /* İlgili öğeyi konumlandırmak için */
+  left: -15px;
+  top: -14px;
+
+}
+
+.product-price .installment {
+  font-size: 14px;
+  color: #666;
+  position: relative; /* İlgili öğeyi konumlandırmak için */
+  top: -14px;
+
+}
+
+.product-rating {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-size: 14px;
+  color: #f5b50a;
+  margin-top: 10px;
+  margin-left: auto; /* Sağ tarafa hizalamak için */
+}
+
+.rating-top {
+  display: flex;
+  align-items: center;
+}
+
+.rating-top .stars {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.rating-top .stars-symbol {
+  margin-right: 5px;
+  color: #ffcc00;
+}
+
+.reviews {
+  color: #666;
+  margin-top: 5px;
+}
+
+.premium-info {
+  margin: 10px 0;
+  font-size: 14px;
+  color: #ff00ff;
+}
+
+.premium {
+  font-weight: bold;
+  color: #ff00ff;
+}
+
+.seller-card {
+  background-color: #f5f5f5;
+  padding: 10px;
+  margin: 10px 0;
+  width: 100%;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.seller-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  color: #666;
+}
+
+.seller-info a {
+  color: #0073e6;
+  text-decoration: none;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+}
+
+.rating-score {
+  font-weight: bold;
+  color: #4CAF50;
+  margin-left: 5px;
+}
+
+.campaign {
+  color: #ff6600;
+}
+
+.shipping-info {
+  font-size: 14px;
+  color: #00cc00;
+  margin-top: 10px;
+}
