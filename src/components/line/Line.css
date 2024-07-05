@@ -1,0 +1,39 @@
+.line-container {
+    display: flex;
+    width: 100%;
+    height: 5px; /* İstediğiniz yüksekliği ayarlayabilirsiniz */
+    top: 150px; /* Çizginin yukarıdan uzaklığını ayarlayın */
+    left: 0;
+    z-index: 999; /* Diğer içeriklerin üstünde görünmesini sağlar */
+    position: absolute;
+  }
+  
+  .segment {
+    height: 100%;
+  }
+  
+  .orange {
+    background-color: orange;
+    width: 40%;
+  }
+  
+  .lightblue {
+    background-color: lightblue;
+    width: 15%;
+  }
+  
+  .purple {
+    background-color: purple;
+    width: 15%;
+  }
+  
+  .green {
+    background-color: green;
+    width: 15%;
+  }
+  
+  .red {
+    background-color: red;
+    width: 15%;
+  }
+  

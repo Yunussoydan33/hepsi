@@ -1,0 +1,66 @@
+.location-container {
+    position: relative;
+    width: 150px; /* Genişliği ayarladık */
+    position: absolute; /* Konumlandırmayı absolute yaparak serbestçe hareket ettirebilirsiniz */
+    right: 400px; /* Sola doğru kaydırmak için */
+    top: 90px; /* Yukarı doğru kaydırmak için */
+  }
+  
+  .location-header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .location-icon {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .location-text {
+    display: flex;
+    flex-direction: column; /* Kolon düzenine geçtik */
+    margin-left: 10px;
+    align-items: flex-start; /* Metinleri sola hizaladık */
+  }
+  
+  .location-title {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .location-button {
+    background: none;
+    border: none;
+    color: #FF6600;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 0; /* Butonun padding'ini sıfırladık */
+    margin-top: 4px; /* Üstüne biraz boşluk ekledik */
+    text-align: left; /* Buton metnini sola hizaladık */
+  }
+  
+  .arrow {
+    font-size: 10px;
+  }
+  
+  .city-list {
+    position: absolute;
+    top: 60px; /* Menü konumunu ayarladık */
+    left: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    width: 100%;
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 1000;
+  }
+  
+  .city-item {
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  .city-item:hover {
+    background-color: #f0f0f0;
+  }
+  

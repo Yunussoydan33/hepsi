@@ -1,0 +1,29 @@
+.categories {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 14px;
+  padding: 10px 0;
+  white-space: nowrap;
+  border-bottom: 1px solid #e0e0e0; /* Alt çizgi eklemek için */
+  position: absolute; /* Konumlandırmayı absolute yaparak serbestçe hareket ettirebilirsiniz */
+  left: 200px; /* Sola doğru kaydırmak için */
+  top: 150px; /* Yukarı doğru kaydırmak için */
+  background: #F5F5F5;
+  
+}
+
+.categories span {
+  margin: 0 15px;
+  position: relative;
+}
+
+.categories span:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  right: -10px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 20px;
+  border-right: 1px solid #e0e0e0; /* Aradaki çizgiler için */
+}
